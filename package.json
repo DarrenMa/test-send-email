@@ -1,0 +1,28 @@
+{
+  "name": "test-send-email",
+  "version": "1.0.0",
+  "description": "test to see if you can send email",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarrenMa/test-send-email.git"
+  },
+  "keywords": [
+    "test",
+    "email",
+    "nodejs"
+  ],
+  "author": "Darren Ma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarrenMa/test-send-email/issues"
+  },
+  "homepage": "https://github.com/DarrenMa/test-send-email#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "nodemailer": "^6.4.16"
+  }
+}
