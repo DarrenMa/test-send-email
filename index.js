@@ -1,4 +1,3 @@
-require('dotenv').config()
 const nodemailer = require('nodemailer');
 
 async function run() {
@@ -14,6 +13,7 @@ async function run() {
         pass: process.env.PASS
       }
     });
+
     // send email
     await transporter.sendMail({
       from: process.env.FROM,

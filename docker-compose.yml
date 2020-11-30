@@ -1,5 +1,12 @@
 version: '3.4'
 services: 
   test-send-email:
-    image: test-send-email:latest
+    image: madarrenma/test-send-email:latest
     build: .
+    environment:
+      - HOST='smtp.gmail.com'
+      - PORT=587
+      - MAILUSER='someone@gmail.com'
+      - PASS='password'
+      - FROM='someone@gmail.com'
+      - TO='someone@gmail.com'
